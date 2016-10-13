@@ -19,6 +19,7 @@ is.vector(spending)
 # Unfortunately, it will not be a vector by default, so you must transform it using the as.vector function
 org <- grants$organization
 as.vector(org)
+
 ### Now you can ask some more interesting questions about the dataset.  Store your answers in variables ###
 
 # What was the mean grant value?
