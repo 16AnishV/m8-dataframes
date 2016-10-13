@@ -1,10 +1,10 @@
-# Exercise 5: Gates Foundation Educational Grants
+ # Exercise 5: Gates Foundation Educational Grants
 
 setwd("~/Desktop/Info 201/m8-dataframes/exercise-5")
 
 
 # Read data into a variable called `grants` using the `read.csv` function
-grants <- read.csv("data/gates_money.csv")
+grants <- read.csv("data/gates_money.csv", stringsAsFactors = FALSE)
 
 # Use the View function to look at your data
 View(grants)
@@ -39,3 +39,5 @@ max.grant.to.org <- org[spending == min.grant]
 
 # How many grants were awarded in 2010?
 grants.in.2010 <- sum(grants$start_year == 2010)
+  # OR
+length(spending[grants$start_year == 2010])
