@@ -1,5 +1,7 @@
 # Exercise 6: Popular Baby Names Over Time
 
+setwd('~/Desktop/Info 201/m8-dataframes/exercise-6')
+
 # Read in the female baby names csv file into a variable called `female.names`
 
 
